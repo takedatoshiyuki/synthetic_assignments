@@ -10,7 +10,5 @@
   - このうちレポート課題の種類４種類: 説明型、意見型、応用型、探究型
 - 生成AI (６モデル: すべてAPI版): GPT-4o、GPT-4o-mini（OpenAI）、Gemini 1.5 Pro、Gemini 1.5 Flash（Google）、Claude 3.5 Sonnet、Claude 3.5 Haiku（Anthropic）の6種類（シラバスはGemini 1.5 Flashのみ）
 
-[generated フォルダ](https://github.com/takedatoshiyuki/synthetic_assignments/generated) に生成データが保存されています。[GitHub Pages](https://takedatoshiyuki.github.com/synthetic_assignments/) でデータのブラウジングが可能です。
-
-本データセットの詳細は、[About](https://takedatoshiyuki.github.com/synthetic_assignments/About)をご参照ください。
+[generated フォルダ](https://github.com/takedatoshiyuki/synthetic_assignments/main/generated) に生成データが保存されています。GitHub Pages を利用したデータのブラウジングも予定しています。
 
