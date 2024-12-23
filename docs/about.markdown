@@ -4,15 +4,47 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### データセット作成の目的
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+生成AIは、すでに大学教育において大きなインパクトをもたらしています。
+しかし、AIを利用していない教員も少なくなく，AIの可能性と対応の必要性が十分に認識されていません。
+そこで、生成AIの能力の評価を専門家がおこなうために生成AIを適用した仮想（合成）事例集（データセット）を作成しました。このデータセットには、さまざまな生成AIモデルによって生成された33の学問分野のレポート課題，レポート，評価基準，レポート評価が含まれます。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### データの種類
 
+このデータセットには33分野について、以下の生成データおよび生成に用いたプロンプトが含まれています。シラバスのみGemini 1.5 Flashによる生成のみで、他のデータは複数の生成AIによって生成されています。
 
-[jekyll-organization]: https://github.com/jekyll
+| データの種類 | 参照するデータ                                  | 備考                     |
+|:-----------|----------------------------------------------|---------------------------|
+| シラバス    | [教育課程編成上の参照基準](https://www.scj.go.jp/ja/member/iinkai/daigakuhosyo/daigakuhosyo.html)                         | Gemini 1.5 Flashのみで生成 |
+| レポート課題 | シラバス                                       |                          |
+| 評価基準    | レポート課題                                    |                          |
+| レポート    | レポート課題                                    |                          |
+| レポート評価 | レポート、レポート課題、評価基準                   |                          |
+
+レポート課題については、成瀬　(2022) に基づき、レポートの論証の自由度および主張内容の自由度の高低による4種類を生成しています。 レポート課題を元に生成される評価基準、レポート、レポート評価も1分野についき4件ずつ生成されます。
+
+1. 説明型: 教材や教員の説明内容について，改めて説明することを求める
+2. 応用型: 事例や経験に対して知識や理論を適用して考察することを求める
+3. 意見型: 授業で学んだ内容について意見や主張を述べることを求める
+4. 探究型: 授業内容に関連する問いを立てて，その問いに対する答えを探究する
+
+### 生成AIモデル
+
+シラバス以外の生成にはAPI版の６モデルを用いています。
+
+- OpenAI
+  - GPT-4o
+  - GPT-4o-mini
+- Google
+  - Gemini 1.5 Pro
+  - Gemini 1.5 Flash
+- Anthropic
+  - Claude 3.5 Sonnet
+  - Claude 3.5 Haiku
+
+### 参考文献
+
+- 岩田貴帆, 野瀬由季子, 時任隼平 (2024) レポート課題に関する大学教員を対象とした質問紙調査. 日本教育工学会2024年春季全国大会(第44回大会)講演論文集,pp.501-502
+- 成瀬尚志 (2022) レポート課題を分類する. In 井下千以子(編)思考を鍛えるライティング教育:書く・読む・対話する・探究する力を育む. 慶應義塾大学出版会,pp.155-172
+- 武田俊之, 岩田貴帆, 時任隼平 (2024) 生成AIによる仮想レポート課題データセットの検討. 日本教育工学会2024年秋季全国大会(第45回大会)講演論文集,pp.643-644
