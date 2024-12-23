@@ -12,3 +12,5 @@
 
 [generated フォルダ](https://github.com/takedatoshiyuki/synthetic_assignments/main/generated) に生成データが保存されています。GitHub Pages を利用したデータのブラウジングも予定しています。
 
+本データセットの詳細は、[About](https://takedatoshiyuki.github.com/synthetic_assignments/About)をご参照ください。
+
