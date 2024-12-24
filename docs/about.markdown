@@ -16,7 +16,7 @@ permalink: /about/
 
 | データの種類 | 参照するデータ                                  | 備考                     |
 |:-----------|----------------------------------------------|---------------------------|
-| シラバス    | [教育課程編成上の参照基準](https://www.scj.go.jp/ja/member/iinkai/daigakuhosyo/daigakuhosyo.html)                         | Gemini 1.5 Flashのみで生成 |
+| シラバス    | [教育課程編成上の参照基準](https://www.scj.go.jp/ja/member/iinkai/daigakuhosyo/daigakuhosyo.html) (日本学術会議)                         | Gemini 1.5 Flashのみで生成 |
 | レポート課題 | シラバス                                       |                          |
 | 評価基準    | レポート課題                                    |                          |
 | レポート    | レポート課題                                    |                          |
