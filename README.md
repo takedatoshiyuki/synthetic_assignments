@@ -13,7 +13,7 @@
 - 生成AI (６モデル: すべてAPI版): GPT-4o、GPT-4o-mini, o3-mini（OpenAI）、Gemini 1.5 Pro、Gemini 1.5 Flash（Google）、Claude 3.5 Sonnet、Claude 3.5 Haiku（Anthropic）の6種類（シラバスはGemini 1.5 Flashのみ）
 
 生成データ本体は [generated フォルダ](https://github.com/takedatoshiyuki/synthetic_assignments/main/generated) に保存されています。
-詳細は、[About](https://takedatoshiyuki.github.io/synthetic_assignments/About)をご参照ください。
+詳細は、[About](https://takedatoshiyuki.github.io/synthetic_assignments/about)をご参照ください。
 
 docsフォルダは、本データセットの内容の簡易ブラウジング (GitHub Pages利用) のためのものです。
 
