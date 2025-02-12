@@ -1,7 +1,7 @@
 このリポジトリのデータセットは、大学教員がそれぞれの専門分野におけるレポート課題について、生成AIのインパクトを評価する際の参考となるように作成しました。
 「生成AIを使ったレポートのレベル感」や「レポート評価支援の生成AI利用の可能性」などの検討の参考資料として、ご自由に利用ください。
 
-データの簡易ブラウジング [https://takedatoshiyuki.github.io/synthetic_assignments/](https://takedatoshiyuki.github.io/synthetic_assignments/About) も提供しています。
+データの簡易ブラウジング [https://takedatoshiyuki.github.io/synthetic_assignments/](https://takedatoshiyuki.github.io/synthetic_assignments/) も提供しています。
 
 **注意: 生成AIの性質上、本データセットのコンテンツは正確さに欠ける可能性があります。AI生成物の評価以外の利用時にはご注意ください。**
 
