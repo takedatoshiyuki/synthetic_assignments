@@ -36,6 +36,7 @@ permalink: /about/
 - OpenAI
   - GPT-4o
   - GPT-4o-mini
+  - o3-mini (high)
 - Google
   - Gemini 1.5 Pro
   - Gemini 1.5 Flash

@@ -143,6 +143,37 @@ AIが生成した「サービス学概論」のレポート課題、採点基
     
 
         <tr>
+            <th rowspan="4">o3-mini-high</th>
+            <td>説明型</td>
+            <td><a href="o3-mini-high/レポート課題-説明型">レポート課題</a></td>
+            <td><a href="o3-mini-high/評価基準-説明型">評価基準</a></td>
+            <td><a href="o3-mini-high/レポート-説明型">レポート</a></td>
+            <td><a href="o3-mini-high/レポート評価-説明型">レポート評価</a></td>
+        </tr>
+        <tr>
+            <td>意見型</td>
+            <td><a href="o3-mini-high/レポート課題-意見型">レポート課題</a></td>
+            <td><a href="o3-mini-high/評価基準-意見型">評価基準</a></td>
+            <td><a href="o3-mini-high/レポート-意見型">レポート</a></td>
+            <td><a href="o3-mini-high/レポート評価-意見型">レポート評価</a></td>
+        </tr>
+        <tr>
+            <td>応用型</td>
+            <td><a href="o3-mini-high/レポート課題-応用型">レポート課題</a></td>
+            <td><a href="o3-mini-high/評価基準-応用型">評価基準</a></td>
+            <td><a href="o3-mini-high/レポート-応用型">レポート</a></td>
+            <td><a href="o3-mini-high/レポート評価-応用型">レポート評価</a></td>
+        </tr>
+        <tr>
+            <td>探求型</td>
+            <td><a href="o3-mini-high/レポート課題-探究型">レポート課題</a></td>
+            <td><a href="o3-mini-high/評価基準-探求型">評価基準</a></td>
+            <td><a href="o3-mini-high/レポート-探求型">レポート</a></td>
+            <td><a href="o3-mini-high/レポート評価-探究型">レポート評価</a></td>
+        </tr>
+    
+
+        <tr>
             <th rowspan="4">claude-3-5-haiku</th>
             <td>説明型</td>
             <td><a href="claude-3-5-haiku/レポート課題-説明型">レポート課題</a></td>
