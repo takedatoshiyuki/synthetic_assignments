@@ -31,18 +31,18 @@ permalink: /about/
 
 ### 生成AIモデル
 
-シラバス以外の生成にはAPI版の６モデルを用いています。
+シラバス以外の生成には3ベンダーの7モデル（すべてAPI版）を用いています。生成のパラメータは指定せず、APIのデフォルト値でテキストを生成しています。
 
-- OpenAI
-  - GPT-4o
-  - GPT-4o-mini
-  - o3-mini (high)
-- Google
-  - Gemini 1.5 Pro
-  - Gemini 1.5 Flash
-- Anthropic
-  - Claude 3.5 Sonnet
-  - Claude 3.5 Haiku
+| ベンダー   | モデル名            | モデルID                                   |
+|-----------|-------------------|-------------------------------------------|
+| OpenAI    | gpt-4o            | gpt-4o-2024-08-06                         |
+|           | gpt-4o-mini       | gpt-4o-mini-2024-07-18                    |
+|           | o3-mini (high)    | o3-mini-2025-01-31                        |
+|           | o1                | o1-2024-12-17                             |
+| Google    | Gemini 1.5 Pro    | gemini-1.5-pro-002                        |
+|           | Gemini 1.5 Flash  | gemini-1.5-flash-002                      |
+| Anthropic | Claude 3.5 Sonnet | anthropic.claude-3-5-sonnet-20241022-v2:0 |
+|           | Claude 3.5 Haiku  | anthropic.claude-3-5-haiku-20241022-v1:0  |
 
 ### 参考文献
 
